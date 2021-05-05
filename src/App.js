@@ -1,12 +1,13 @@
-
+import Grid from "./Grid"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <p>First tailwindfacesinitial</p>
 
-    </div>
+    <Grid />
+
+
+
   );
 }
 
