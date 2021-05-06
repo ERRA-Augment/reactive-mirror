@@ -13,49 +13,49 @@ import TopRight from './components/TopRight'
 
 function Grid() {
     return (
-<div class="flex flex-wrap overflow-hidden text-center font-bold">
+<div class="flex flex-wrap overflow-hidden text-white text-center font-bold">
 
-<div class="w-full overflow-hidden border-2 border-black xl:w-full xl:h-16">
+<div class="w-full overflow-hidden border-white xl:w-full xl:h-16">
 <Header />
 </div>
 
-<div  class="w-full overflow-hidden border-2 border-black xl:w-1/3 xl:h-80">
- <TopLeft />
+<div class="w-full overflow-hidden border-white xl:w-1/3 xl:h-80">
+<TopLeft />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-black xl:w-1/3 xl:h-80 ">
+<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
 <TopCenter />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-black xl:w-1/3 xl:h-80">
+<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
 <TopRight />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-black xl:w-1/3 xl:h-80">
+<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
 <MiddleLeft />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-black xl:w-1/3 xl:h-80">
+<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
 <MiddleCenter />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-black xl:w-1/3 xl:h-80">
+<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
 <MiddleRight />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-black xl:w-1/3 xl:h-80">
+<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
 <BottomLeft />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-black xl:w-1/3 xl:h-80">
+<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
 <BottomCenter />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-black xl:w-1/3 xl:h-80">
+<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
 <BottomRight />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-black xl:w-full xl:h-14">
+<div class="w-full overflow-hidden border-2 border-white xl:w-full xl:h-14">
 <Footer />
 </div>
 

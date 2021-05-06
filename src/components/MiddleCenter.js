@@ -1,10 +1,12 @@
 import React from 'react'
-import Clock from '../apps/Clock'
+//import Clock from '../apps/Clock'
 
 function MiddleCenter() {
     return (
-        <div>
-            <Clock />
+        <div class="m-20 p-10">
+            MiddleCenter
+            {/* <Clock /> */}
+
         </div>
     )
 }

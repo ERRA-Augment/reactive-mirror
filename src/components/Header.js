@@ -1,9 +1,11 @@
 import React from 'react'
+import NewsTicker from '../apps/NewsTicker/NewsTicker'
 
 function Header() {
     return (
-        <div>
-            Header
+        <div class="">
+            {/* Header */}
+            <NewsTicker />
         </div>
     )
 }
