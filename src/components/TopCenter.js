@@ -1,9 +1,10 @@
 import React from 'react'
+// import TestFace from '../apps/Test/Test'
 
 function TopCenter() {
     return (
-        <div class="m-20 p-10">
-            TopCenter
+        <div className="p-10 m-20">
+            Top Center
         </div>
     )
 }

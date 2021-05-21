@@ -26,5 +26,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('C:/Users/Joshs/Documents/GitHub/reactive-mirror/node_modules/tailwind-percentage-heights-plugin')(),
+  ],
 }

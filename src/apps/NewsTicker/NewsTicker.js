@@ -1,14 +1,15 @@
 import React from 'react'
 import Ticker from 'react-ticker'
+import RSS from './RSS'
 
 function NewsTicker() {
     return (
 
-    <div class="bg-blue-800 h-16 p-2 text-5xl">
-        <Ticker offset="run-in" speed={2}>
+    <div className="p-2 text-4xl bg-blue-800 h-14">
+        <Ticker offset="run-in" speed={5}>
         {({ index }) => (
             <>
-                <h1>This is the Headline of element #{index}!</h1>
+                <div><RSS />{index}!</div>
                 <img src="www.my-image-source.com/" alt=""/>
             </>
         )}

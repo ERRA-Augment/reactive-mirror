@@ -3,7 +3,7 @@ import React from 'react'
 
 function MiddleCenter() {
     return (
-        <div class="m-20 p-10">
+        <div className="p-10 m-20">
             MiddleCenter
             {/* <Clock /> */}
 

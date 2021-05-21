@@ -3,7 +3,7 @@ import NewsTicker from '../apps/NewsTicker/NewsTicker'
 
 function Header() {
     return (
-        <div class="">
+        <div className="">
             {/* Header */}
             <NewsTicker />
         </div>

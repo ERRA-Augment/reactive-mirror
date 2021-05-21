@@ -2,7 +2,7 @@ import React from 'react'
 import BottomCenter from './components/BottomCenter'
 import BottomLeft from './components/BottomLeft'
 import BottomRight from './components/BottomRight'
-import Footer from './components/Footer'
+// import Footer from './components/Footer'
 import Header from './components/Header'
 import MiddleCenter from './components/MiddleCenter'
 import MiddleLeft from './components/MiddleLeft'
@@ -13,51 +13,51 @@ import TopRight from './components/TopRight'
 
 function Grid() {
     return (
-<div class="flex flex-wrap overflow-hidden text-white text-center font-bold">
+<div className="flex flex-wrap overflow-hidden font-bold text-white">
 
-<div class="w-full overflow-hidden border-white xl:w-full xl:h-16">
+<div className="w-full overflow-hidden text-center border-white xl:w-full h-14">
 <Header />
 </div>
 
-<div class="w-full overflow-hidden border-white xl:w-1/3 xl:h-80">
+<div className="w-full pr-20 overflow-hidden text-center border-white xl:w-1/3">
 <TopLeft />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
+<div className="w-full overflow-hidden text-center border-2 border-white xl:w-1/3 xl:h-80">
 <TopCenter />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
+<div className="w-full overflow-hidden text-center border-2 border-white xl:w-1/3">
 <TopRight />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
+<div className="w-full overflow-hidden text-center border-2 border-white xl:w-1/3">
 <MiddleLeft />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
+<div className="w-full overflow-hidden text-center border-2 border-white xl:w-1/3 xl:h-96">
 <MiddleCenter />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
+<div className="w-full overflow-hidden text-center border-2 border-white xl:w-1/3">
 <MiddleRight />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
+<div className="w-full overflow-hidden text-center border-2 border-white xl:w-1/3">
 <BottomLeft />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
+<div className="w-full overflow-hidden text-center border-2 border-white xl:w-1/3 xl:h-80">
 <BottomCenter />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-white xl:w-1/3 xl:h-80">
+<div className="w-full overflow-hidden text-center border-2 border-white xl:w-1/3">
 <BottomRight />
 </div>
 
-<div class="w-full overflow-hidden border-2 border-white xl:w-full xl:h-14">
+{/* <div className="w-full overflow-hidden border-2 border-white xl:w-full xl:h-14">
 <Footer />
-</div>
+</div> */}
 
 </div>
     )
